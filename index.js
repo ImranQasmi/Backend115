@@ -10,7 +10,7 @@ function solveRect(l,b) {
         console.log("Rectangle dimensions should be greater than zero:  l = "
                + l + ",  and b = " + b);
     }
-    else {
+    else { 
 	    console.log("The area of the rectangle is " + rect.area(l,b));
 	    console.log("The perimeter of the rectangle is " + rect.perimeter(l,b));
     }
